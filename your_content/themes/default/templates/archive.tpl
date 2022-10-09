@@ -12,12 +12,12 @@
        of thumbnail images for each comic in the archive, each linking to the comic page.
        If it's False, the template will generate a simple HTML list of links to each comic in the archive.#}
     {%- if use_thumbnails %}
-		{%- for chapter_name, pages in storylines.items() %}
+		{%- for storyline_name, pages in storylines.items() %}
 			{%- if pages %}
 			{# `| replace(" ", "-")` takes the value in the variable, in this case `storyline.name`, and replaces all
 			   spaces with hyphens. This is important when building links to other parts of the site. #}
-			<a id="{{ chapter_name | replace(' ', '-') }}"></a>
-			<h2 class="archive-section" id="archive-section-{{ chapter_name | replace(' ', '-') }}">{{ chapter_name }}</h2>
+			<a id="{{ storyline_name | replace(' ', '-') }}"></a>
+			<h2 class="archive-section" id="archive-section-{{ storyline_name | replace(' ', '-') }}">{{ storyline_name }}</h2>
 			<div class="archive-grid">
 			{# For loops let you take a list of a values and do something for each of those values. In this case,
 			   it runs through list of all the pages in a particular storyline (Chapter 1, Chapter 2, etc) and creates

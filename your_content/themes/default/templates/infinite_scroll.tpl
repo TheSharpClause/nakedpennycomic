@@ -9,11 +9,11 @@
         {# For loops let you take a list of a values and do something for each of those values. In this case,
            it runs through list of all the storylines in the comic (Chapter 1, Chapter 2, etc.) it generates a link
            for each of those them connecting to the first page in that storyline. #}
-		{%- for chapter_name, pages in storylines.items() %}
-            {%- if chapter_name != "Extras" %}
+		{%- for storyline_name, pages in storylines.items() %}
+            {%- if storyline_name != "Extras" %}
             <a class="chapter-links" href="#{{ pages[0].page_name }}"
-                id="infinite-scroll-{{ chapter_name | replace(' ', '-') }}">
-                {{ chapter_name }}
+                id="infinite-scroll-{{ storyline_name | replace(' ', '-') }}">
+                {{ storyline_name }}
             </a>
             {%- endif %}
         {%- endfor %}
