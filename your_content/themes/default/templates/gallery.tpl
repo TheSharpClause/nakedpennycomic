@@ -9,7 +9,7 @@
 		<table class="castpage">
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castAva.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castAva.png">
                     <a class = "ref" href="../your_content/images/sheets/avaRef.png">Ava's Reference Sheet</a><br>
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Ava/">Pages Ava Appears On</a>
 				</td>
@@ -32,7 +32,7 @@
 			</tr>
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castAckerley.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castAckerley.png">
                     <a class = "ref" href="../your_content/images/sheets/ackerleyRef.png">Ackerley's Reference Sheet</a><br>
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Ackerley/">Pages Ackerley Appears On</a>
 				</td>
@@ -55,7 +55,7 @@
 			</tr>
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castVex.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castVex.png">
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Vex/">Pages Vex Appears On</a>
 				</td>
 				<td class="description info">
@@ -77,7 +77,7 @@
 			</tr>
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castCori.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castCori.png">
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Coriander/">Pages Cori Appears On</a>
 				</td>
 				<td class="description info">
@@ -99,7 +99,7 @@
 			</tr>
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castRaiona.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castRaiona.png">
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Raiona/">Pages Raiona Appears On</a>
 				</td>
 				<td class="description info">
@@ -121,7 +121,7 @@
 			</tr>
 			<tr>
 				<td class="image">
-					<img class = "castImage" src="/your_content/images/castCort.png">
+					<img class = "castImage" src="{{ base_dir }}/your_content/images/castCort.png">
 					<a class = "ref" href="http://www.mothorialcomic.com/tagged/Cort/">Pages Cort Appears On</a>
 				</td>
 				<td class="description info">

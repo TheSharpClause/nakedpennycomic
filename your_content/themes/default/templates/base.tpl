@@ -15,7 +15,7 @@
        the Python script that generates the HTML file. That value is dropped into the existing HTML with no changes.
        For example, if the value passed in to `google_analytics_id` is `UA-123456789-0`, then
        `id={{ google_analytics_id }}` becomes `id=UA-123456789-0` #}
-	<script type="text/javascript" src="/your_content/themes/default/js/menu.js"></script>
+	<script type="text/javascript" src="{{ base_dir }}/your_content/themes/default/js/menu.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_id }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -52,7 +52,7 @@
 <div id="container">
     <div id="banner">
         <a id="banner-img-link" href="/">
-            <img id="banner-img" alt="banner" src="/your_content/images/banner.png">
+            <img id="banner-img" alt="banner" src="{{ base_dir }}/your_content/images/banner.png">
         </a>
     </div>
     <div id="links-bar">
@@ -89,10 +89,10 @@
 
     <div id="powered-by">
         <p class="mainMenu">Check out other comics in the Foxglove Comics library:</p>
-        <a href="https://www.kalzeria.com"><img src="/your_content/images/banner_kalzeria.png"></a>
-        <a href="https://www.tamberlanecomic.com"><img src="/your_content/images/banner_tamberlane.gif"></a>
-		<a href="https://tapas.io/series/PHTR6G"><img src="/your_content/images/preenyad_small.png"></a>
-        <a href="https://www.starwarriorscomic.com"><img src="/your_content/images/banner_starwarriors.png"></a>
+        <a href="https://www.kalzeria.com"><img src="{{ base_dir }}/your_content/images/banner_kalzeria.png"></a>
+        <a href="https://www.tamberlanecomic.com"><img src="{{ base_dir }}/your_content/images/banner_tamberlane.gif"></a>
+		<a href="https://tapas.io/series/PHTR6G"><img src="{{ base_dir }}/your_content/images/preenyad_small.png"></a>
+        <a href="https://www.starwarriorscomic.com"><img src="{{ base_dir }}/your_content/images/banner_starwarriors.png"></a>
         <p>Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git">comic_git</a> v{{ version }}</p>
     </div>
 </div>

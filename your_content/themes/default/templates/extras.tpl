@@ -9,7 +9,7 @@
 		<table class="castpage">
 			<tr>
 				<td class="image">
-					<img class = "castImage extras" src="/your_content/images/MusicToMyFearsLogo.png">
+					<img class = "castImage extras" src="{{ base_dir }}/your_content/images/MusicToMyFearsLogo.png">
 				</td>
 				<td class="description background">
 						<h2>Music to My Fears</h2>

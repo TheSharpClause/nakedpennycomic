@@ -13,7 +13,7 @@
        If it's False, the template will generate a simple HTML list of links to each comic in the archive.#}
     {%- if use_thumbnails %}
 		{%- for volume_name, chapters in storylines.items() %}
-			<img class="volumeBanner" src="/your_content/images/{{volume_name | replace(" ", "-")}}.png" >
+			<img class="volumeBanner" src="{{ base_dir }}/your_content/images/{{volume_name | replace(" ", "-")}}.png" >
 			{%- for name, pages in chapters.items() %}
 			{%- if pages %}
 			{# `| replace(" ", "-")` takes the value in the variable, in this case `storyline.name`, and replaces all

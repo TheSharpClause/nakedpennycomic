@@ -6,7 +6,7 @@
 			<h1>🖉 About the Author 🖉</h1>
 			<div class = "aboutAuthor">
 				<div class = "authorLinks">
-					<img class = "authorPhoto" src="/your_content/images/authorSpot.png"></img>
+					<img class = "authorPhoto" src="{{ base_dir }}/your_content/images/authorSpot.png"></img>
 					<h2>Twitter</h2>
 					<a href="https://www.twitter.com/MetajokerMusic" target="_blank">MetajokerMusic</a>
 					<h2>Youtube</h2>
@@ -26,7 +26,7 @@
 			<h1>⯎ About the Illustrator ⯎</h1>
 			<div class = "aboutArtist">
 				<div class = "artistLinks">
-					<img class = "artistPhoto" src="/your_content/images/authorCotton.png"></img>
+					<img class = "artistPhoto" src="{{ base_dir }}/your_content/images/authorCotton.png"></img>
 					<h2>Twitter</h2>
 					<a href="https://www.twitter.com/IzzySqueakzy" target="_blank">IzzySqueakzy</a>
 				</div>
@@ -43,7 +43,7 @@
 			<h1>🎨 About the Flatter 🎨</h1>
 			<div class = "aboutAriya">
 				<div class = "artistLinks">
-					<img class = "artistPhoto" src="/your_content/images/authorAriya.png"></img>
+					<img class = "artistPhoto" src="{{ base_dir }}/your_content/images/authorAriya.png"></img>
 					<h2>Twitter</h2>
 					<a href="https://twitter.com/AriyaEretsee" target="_blank">AriyaEretsee</a>
 				</div>
@@ -54,7 +54,7 @@
 			<h1>🎨 About the Background Artist 🎨</h1>
 			<div class = "aboutJeri">
 				<div class = "artistLinks">
-					<img class = "artistPhoto" src="/your_content/images/authorJeri.png"></img>
+					<img class = "artistPhoto" src="{{ base_dir }}/your_content/images/authorJeri.png"></img>
 					<h2>Twitter</h2>
 					<a href="https://twitter.com/BeanWorks_" target="_blank">BeanWorks_</a>
 				</div>
@@ -65,7 +65,7 @@
 			{#<h1>🖋 About the Editors 🖋</h1>
 			<div class = "aboutCharlie">
 				<div class = "CharlieLinks">
-					<img class = "artistPhoto" src="/your_content/images/authorCharlie.png"></img>
+					<img class = "artistPhoto" src="{{ base_dir }}/your_content/images/authorCharlie.png"></img>
 				</div>
 				<div class = "editorText">
 					<p><strong>Charlie Monroe</strong> is a writer and podcaster from North Carolina who will let you know as soon as they're done writing their groundbreaking first novel. They provided one or two ideas for Mothorial in their role as a story consultant, but they can't remember which ones.</p>
@@ -73,7 +73,7 @@
 			</div>
 			<div class = "aboutAlex">
 				<div class = "AlexLinks">
-					<img class = "artistPhoto" src="/your_content/images/authorBeck.png"></img>
+					<img class = "artistPhoto" src="{{ base_dir }}/your_content/images/authorBeck.png"></img>
 					<h2>Twitter</h2>
 					<a href="https://twitter.com/The_Beckmanator" target="_blank">The_Beckmanator</a>
 				</div>

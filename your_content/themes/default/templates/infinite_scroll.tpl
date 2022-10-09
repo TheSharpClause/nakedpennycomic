@@ -41,7 +41,7 @@
 {% endblock %}
 {% block script %}
 <script type="module">
-    import { load_page } from "/your_content/themes/default/js/infinite_scroll.js";
+    import { load_page } from "{{ base_dir }}/your_content/themes/default/js/infinite_scroll.js";
     load_page();
 </script>
 {% endblock %}
