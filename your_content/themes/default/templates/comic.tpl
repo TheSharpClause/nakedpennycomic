@@ -78,11 +78,6 @@
         {{ post_html }}
         </div>
         <hr id="post-body-break">
-        {%- if _volume %}
-            <div id="volume">
-                Volume: <a href='/archive/#{{ _volume | replace(" ", "-") }}'>{{ _volume }}</a>
-            </div>
-        {%- endif %}
         {%- if _chapter %}
             <div id="storyline">
                 {# `| replace(" ", "-")` takes the value in the variable, in this case `storyline`, and replaces all
