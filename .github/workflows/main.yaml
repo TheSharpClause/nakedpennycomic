@@ -30,21 +30,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+      - name: Pull in comic_git_engine
         run: |
-          python -m pip install --upgrade pip
-          pip install -r src/scripts/requirements.txt
-          python src/scripts/make_requirements_hooks_file.py
-          pip install -r src/scripts/requirements_hooks.txt
-      - name: Run python build script
+          ENGINE_VERSION=$(sed -n 's/Engine version = \(.*\)/\1/p' your_content/comic_info.ini)
+          echo "Engine version: $ENGINE_VERSION"
+          git submodule add -b "$ENGINE_VERSION" -f https://github.com/ryanvilbrandt/comic_git_engine
+      - name: Run build_site.sh
         run: |
-          python src/scripts/build_site.py --delete-scheduled-posts
-      - name: Commit files
-        run: |
-          git config --local user.name "Github Action"
-          git config --local user.email "action@github.com"
-          git add --all
-          git diff-index --quiet HEAD || git commit -m "Auto-build"
-      - name: Push changes
-        run: |
-          git push -f --set-upstream origin master
+          ./comic_git_engine/scripts/build_site.sh $GITHUB_REPOSITORY

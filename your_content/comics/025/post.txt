@@ -1,0 +1,21 @@
+<h2>Author's Notes</h2>
+
+Mosswood has an eclectic layout, mostly due to its age and natural formation. While some towns and cities such as Sorelia were quite deliberately constructed around central structures, Mosswood, being one of the oldest towns in Mothorial, expanded naturally from various farms and homesteads. As a result, there are a wide variety of building styles and plenty of land to go around, and though a town center naturally formed, plenty of older structures like the Mosswood Library still stand on the outskirts of town rather than in its more bustling center.
+
+<h2>Transcript</h2>
+
+AVA: I'll stop by tomorrow if I can! Elder's light guide your path!<br>
+
+GABBY: Mother's love warm your den, Ava. Always a pleasure.<br>
+
+GABBY: And remember what I said, y'hear?<br>
+
+AVA: Yep! Caution! Ale! No woods! Got it!<br>
+
+AVA: Hmm... It was probably just Wanderer's imagination, anyway.<br>
+
+VEX: <b><i>Hey!</b></i><br>
+
+VEX: Look who it is!<br>
+
+AVA: Oh, great.

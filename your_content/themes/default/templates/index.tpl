@@ -1,0 +1,52 @@
+{% extends "base.tpl" %}
+{%- block content %}
+
+	<div class="mainMenu">
+		<table class="welcome">
+			<tr>
+				<th class="pageLinks"><a href="comic/{{ first_id }}/#comic-page"><img class="avaChibi" src="/your_content/images/avaChibiText.gif"></a></th>
+				<th class="summary"><h1 class="announcement">Welcome to the World of Mothorial!</h1><br>
+				<p>A webcomic about a bold fruit bat and an anxious goose-pheasant on a quest to save their world from a being as old as reality itself.</p></th>
+				<th class="pageLinks"><a href="comic/{{ last_id }}/#comic-page"><img class="ackChibi" src="/your_content/images/ackChibiText.gif"></a></th>
+			</tr>
+		</table>
+		<div class="summaryMobile">
+		<h1 class="announcement">Welcome to the World of Mothorial!</h1><br>
+					<p>A webcomic about a bold fruit bat and an anxious goose-pheasant on a quest to save their world from a being as old as reality itself.</p>
+		</div>
+		<p>Written by Ari Noble and illustrated by Isabel Pereira.</p>
+		<p>Rated PG-13 for dark themes and some violence and blood. Updates every Monday!</p>
+		<div class="patreon-button" id="patreon-button"><a class="patreon" href="https://www.patreon.com/bePatron?u=355259" target="_blank">Become a Patron</a></div>
+		<p>Subscribe to Patreon for extra goodies, from early pages to behind the scenes content and even cameo opportunities!</p>
+	</div>
+	<div id="patrons">
+		<h2 style="text-align: center;">Special Thanks to Long-Standing Patrons</h2>
+		<div class="patrons">
+			<div class="tiers">
+				<span class="avaTier">Ava Tier</span>
+				<span class="ackerleyTier">Ackerley Tier</span>
+			</div>
+			<div class="tiers separate">
+				<span class="apprenticeTier">Artifact Apprentice</span>
+				<span class="bearerTier">Artifact Bearer</span>
+			</div>
+			<div class="patronList">
+				<div class="column">
+					<span class="avaTier">Dorothy Beckman,</span>
+					<span class="avaTier">Sunny Franklin,</span>
+                    <span class="avaTier">Scott Fraser,</span>
+                    <span class="avaTier">Patrick Kingsley,</span>
+                    <span class="avaTier">Julian Kröll,</span>
+                    <span class="avaTier">Neon Noble,</span>
+                    <span class="apprenticeTier">Rem Antari,</span>
+					<span class="apprenticeTier">Charlie Monroe,</span>
+					<span class="bearerTier">C. Cateni,</span>
+                    <span class="bearerTier">T_Applesmith,</span>
+                    <span class="bearerTier">Jared Dark,</span>
+                    <span class="bearerTier">Gunny Waffle,</span>
+					<span class="bearerTier">Caytlin Vilbrandt</span>
+				</div>
+			</div>
+		</div></div>
+
+{%- endblock %}

@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3902643, 2020-05-13T22:51:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Dreadful-Regular by Aiyari
+ * URL: https://www.myfonts.com/fonts/aiyari/dreadful/regular/
+ * Copyright: Copyright (c) 2016 by Ricky Rinaldi | Aiyari. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b8cb3");
+  
+@font-face {
+  font-family: 'Dreadful-Regular';
+  src: url('webFonts/Dreadful-Regular/font.woff2') format('woff2'), url('webFonts/Dreadful-Regular/font.woff') format('woff');
+}
+

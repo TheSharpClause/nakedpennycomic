@@ -23,7 +23,6 @@ If you have questions, comments, or difficulties with comic_git, please join our
 ### Code
 
 * @ryanvilbrandt
-* @cvilbrandt
 
 ### Wiki
 
