@@ -111,7 +111,7 @@ function build_comic_div(page) {
     node.id = page["page_name"];
 
     let link_node = document.createElement("a");
-    link_node.href = "https://www.mothorialcomic.com/comic/" + page["page_name"];
+    link_node.href = "https://thesharpclause.github.io/nakedpennycomic/comic" + page["page_name"];
 
     console.log("Adding div for page " + page["page_name"]);
     let image_node = document.createElement("img");
