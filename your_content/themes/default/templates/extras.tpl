@@ -16,7 +16,7 @@
 						<p><i>When Terra, Marie, Ackerley, and Laz get separated from their Trick-or-Treating group, they must figure out how to combat the spirits of the dead that rise from the forest around them!</i></p>
 						<p>Script by: Ari "Metajoker" Borhanian</p>
 						<p>Art by: Caitlyn Vilbrandt, IzzySqueakzy, Leah Briere, and Michael "Neon Noble" Nicolosi</p>
-						<a class = "ref" href="/extras/music_to_my_fears/comic/001">Read it here!</a>
+						<a class = "ref" href="{{ base_dir }}/extras/music_to_my_fears/comic/001">Read it here!</a>
 				</td>
 			</tr>
 		</table>
