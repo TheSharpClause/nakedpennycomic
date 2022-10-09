@@ -137,7 +137,7 @@ function load_older_pages() {
             earliest_comic_loaded--;
 
             let j = page_info_json[earliest_comic_loaded];
-            if (j["Volume"] === "Extras") {
+            if (j["Storyline"] === "Extras") {
                 console.debug(`Hiding from infinite scroll`);
             } else {
                 let node = build_comic_div(page_info_json[earliest_comic_loaded]);

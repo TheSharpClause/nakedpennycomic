@@ -38,4 +38,5 @@ jobs:
       - name: Run build_site.sh
         run: |
           ./comic_git_engine/scripts/build_site.sh $GITHUB_REPOSITORY
+          echo $?
           exit $?
