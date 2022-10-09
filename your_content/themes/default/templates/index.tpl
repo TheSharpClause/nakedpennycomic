@@ -4,20 +4,27 @@
 	<div class="mainMenu">
 		<table class="welcome">
 			<tr>
-				<th class="pageLinks"><a href="comic/{{ first_id }}/#comic-page"><img class="avaChibi" src="{{ base_dir }}/your_content/images/avaChibiText.gif"></a></th>
-				<th class="summary"><h1 class="announcement">Welcome to the World of Mothorial!</h1><br>
-				<p>A webcomic about a bold fruit bat and an anxious goose-pheasant on a quest to save their world from a being as old as reality itself.</p></th>
-				<th class="pageLinks"><a href="comic/{{ last_id }}/#comic-page"><img class="ackChibi" src="{{ base_dir }}/your_content/images/ackChibiText.gif"></a></th>
+				<th class="summary"><h1 class="announcement">ADULTS ONLY BEYOND THIS POINT!!</h1><br>
+				<p>Welcome, friends, to Naked Penny! This is a silly and sexy comic which contains some NAUGHTY CONTENT (goodness me)!
+
+By proceeding any further, you certify that you are of the legal age to view nude and lewd content in your location.
+
+If you are NOT legally allowed to view such shenanigans, please exit out of the site. Otherwise... </p></th>
+				<th class="pageLinks"><a href="comic/{{ last_id }}/#comic-page"><img class="ackChibi" src="{{ base_dir }}/your_content/images/logoAnimated.gif"></a></th>
 			</tr>
 		</table>
 		<div class="summaryMobile">
-		<h1 class="announcement">Welcome to the World of Mothorial!</h1><br>
-					<p>A webcomic about a bold fruit bat and an anxious goose-pheasant on a quest to save their world from a being as old as reality itself.</p>
+		<h1 class="announcement">ADULTS ONLY BEYOND THIS POINT!!</h1><br>
+					<p>Welcome, friends, to Naked Penny! This is a silly and sexy comic which contains some NAUGHTY CONTENT (goodness me)!
+
+By proceeding any further, you certify that you are of the legal age to view nude and lewd content in your location.
+
+If you are NOT legally allowed to view such shenanigans, please exit out of the site. Otherwise... </p>
 		</div>
-		<p>Written by Ari Noble and illustrated by Isabel Pereira.</p>
-		<p>Rated PG-13 for dark themes and some violence and blood. Updates every Monday!</p>
+		<p>Written by Stoker and The Sharp Clause</p>
+		<p>Rated R for exhibitionist goodness</p>
 		<div class="patreon-button" id="patreon-button"><a class="patreon" href="https://www.patreon.com/bePatron?u=355259" target="_blank">Become a Patron</a></div>
-		<p>Subscribe to Patreon for extra goodies, from early pages to behind the scenes content and even cameo opportunities!</p>
+		<p>Subscribe to Patreon for early pages and extra content!</p>
 	</div>
 	<div id="patrons">
 		<h2 style="text-align: center;">Special Thanks to Long-Standing Patrons</h2>
@@ -32,19 +39,8 @@
 			</div>
 			<div class="patronList">
 				<div class="column">
-					<span class="avaTier">Dorothy Beckman,</span>
-					<span class="avaTier">Sunny Franklin,</span>
-                    <span class="avaTier">Scott Fraser,</span>
-                    <span class="avaTier">Patrick Kingsley,</span>
-                    <span class="avaTier">Julian Kröll,</span>
-                    <span class="avaTier">Neon Noble,</span>
-                    <span class="apprenticeTier">Rem Antari,</span>
-					<span class="apprenticeTier">Charlie Monroe,</span>
-					<span class="bearerTier">C. Cateni,</span>
-                    <span class="bearerTier">T_Applesmith,</span>
-                    <span class="bearerTier">Jared Dark,</span>
-                    <span class="bearerTier">Gunny Waffle,</span>
-					<span class="bearerTier">Caytlin Vilbrandt</span>
+					<span class="avaTier">Test McTesterson</span>
+
 				</div>
 			</div>
 		</div></div>

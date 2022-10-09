@@ -24,7 +24,7 @@ a {
 }
 
 div#container {
-    background-color: black;  /* The background color of the main box */
+    background-color: #bc92ba;  /* The background color of the main box */
     box-shadow: 5px 5px 10px; /* If you change the background color of website, play with this or else it will look bad. */
 }
 
@@ -40,7 +40,7 @@ a.link-bar-link {
 }
 
 div#links-bar {
-    background-color: indianred;
+    background-color: #e99ec0;
     margin-bottom: 15px;
     padding: 5px;
     display: flex;

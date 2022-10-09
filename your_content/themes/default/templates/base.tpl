@@ -88,11 +88,6 @@
     {% block content %}{% endblock %}
 
     <div id="powered-by">
-        <p class="mainMenu">Check out other comics in the Foxglove Comics library:</p>
-        <a href="https://www.kalzeria.com"><img src="{{ base_dir }}/your_content/images/banner_kalzeria.png"></a>
-        <a href="https://www.tamberlanecomic.com"><img src="{{ base_dir }}/your_content/images/banner_tamberlane.gif"></a>
-		<a href="https://tapas.io/series/PHTR6G"><img src="{{ base_dir }}/your_content/images/preenyad_small.png"></a>
-        <a href="https://www.starwarriorscomic.com"><img src="{{ base_dir }}/your_content/images/banner_starwarriors.png"></a>
         <p>Powered by <a id="powered-by-link" href="https://github.com/ryanvilbrandt/comic_git">comic_git</a> v{{ version }}</p>
     </div>
 </div>
