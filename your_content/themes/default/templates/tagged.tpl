@@ -19,7 +19,7 @@
 			{%- for page in tagged_pages %}
 				<a href="{{comic_base_dir}}/comic/{{ page.page_name }}/">
 				<div class="archive-thumbnail">
-					<div class="archive-thumbnail-page"><img class="thumbtrick" src="/{{ page.thumbnail_path }}"></div>
+					<div class="archive-thumbnail-page"><img class="thumbtrick" src="{{ base_dir }}/{{ page.thumbnail_path }}"></div>
 					<div class="archive-thumbnail-title">{{ page._title }}</div>
 					<div class="archive-thumbnail-post-date">{{ page.archive_post_date }}</div>
 				</div>
