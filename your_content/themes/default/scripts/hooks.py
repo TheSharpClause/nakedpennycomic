@@ -53,7 +53,7 @@ def extra_get_storylines_processing(comic_info, comic_data_dicts, storylines_dic
     storyline.
     :return: Dictionary of all storylines
     """
-    volumes_dict = OrderedDict()
+    #volumes_dict = OrderedDict()
     for comic_data in comic_data_dicts:
         volume = comic_data["_volume"]
         if volume:
