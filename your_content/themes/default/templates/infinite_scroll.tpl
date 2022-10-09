@@ -9,21 +9,12 @@
         {# For loops let you take a list of a values and do something for each of those values. In this case,
            it runs through list of all the storylines in the comic (Chapter 1, Chapter 2, etc.) it generates a link
            for each of those them connecting to the first page in that storyline. #}
-		{%- for volume_name, chapters in storylines.items() %}
-            {%- if volume_name != "Extras" %}
-			<div class="dropdown">
-				<button class="dropbtn">{{volume_name}}</button>
-				<div id="myDropdown-{{volume_name | replace(' ', '-')}}" class="dropdown-content">
-					{%- for chapter_name, pages in chapters.items() %}
-						<a class="chapter-links" href="#{{ pages[0].page_name }}"
-							{# `| replace(" ", "-")` takes the value in the variable, in this case `name`, and replaces all
-							   spaces with hyphens. This is important when building links to other parts of the site. #}
-							id="infinite-scroll-{{ chapter_name | replace(' ', '-') }}">
-							{{ chapter_name }}
-						</a>
-					{%- endfor %}
-				</div>
-			</div>
+		{%- for chapter_name, pages in storylines.items() %}
+            {%- if chapter_name != "Extras" %}
+            <a class="chapter-links" href="#{{ pages[0].page_name }}"
+                id="infinite-scroll-{{ chapter_name | replace(' ', '-') }}">
+                {{ chapter_name }}
+            </a>
             {%- endif %}
         {%- endfor %}
 	</div>

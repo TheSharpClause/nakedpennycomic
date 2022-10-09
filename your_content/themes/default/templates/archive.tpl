@@ -12,9 +12,7 @@
        of thumbnail images for each comic in the archive, each linking to the comic page.
        If it's False, the template will generate a simple HTML list of links to each comic in the archive.#}
     {%- if use_thumbnails %}
-		{%- for volume_name, chapters in storylines.items() %}
-			<img class="volumeBanner" src="{{ base_dir }}/your_content/images/{{volume_name | replace(" ", "-")}}.png" >
-			{%- for name, pages in chapters.items() %}
+		{%- for name, pages in storylines.items() %}
 			{%- if pages %}
 			{# `| replace(" ", "-")` takes the value in the variable, in this case `storyline.name`, and replaces all
 			   spaces with hyphens. This is important when building links to other parts of the site. #}
@@ -35,7 +33,6 @@
 			{%- endfor %}
 			</div>
 			{%- endif %}
-			{%- endfor %}
 		{%- endfor %}
     {%- else %}
     <ul>
