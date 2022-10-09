@@ -29,9 +29,9 @@
        name. #}
     {%- block head %}
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/your_content/themes/default/css/advanced_stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="/your_content/themes/default/colors_and_layout/your_stylesheet.css">
-	<link rel="stylesheet" type="text/css" href="/your_content/themes/default/colors_and_layout/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" type="text/css" href="{{ base_dir }}/your_content/themes/default/css/advanced_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="{{ base_dir }}/your_content/themes/default/colors_and_layout/your_stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="{{ base_dir }}/your_content/themes/default/colors_and_layout/MyFontsWebfontsKit.css">
 	<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
