@@ -54,18 +54,18 @@ def extra_get_storylines_processing(comic_info, comic_data_dicts, storylines_dic
     :return: Dictionary of all storylines
     """
     #volumes_dict = OrderedDict()
-    for comic_data in comic_data_dicts:
-        volume = comic_data["_volume"]
-        if volume:
-            if volume not in volumes_dict.keys():
-                volumes_dict[volume] = OrderedDict()
-            chapter = comic_data["_chapter"]
-            if chapter:
-                if chapter not in volumes_dict[volume].keys():
-                    volumes_dict[volume][chapter] = []
-                volumes_dict[volume][chapter].append(comic_data.copy())
-    volumes_dict.move_to_end("Extras", last=True)
-    return volumes_dict
+    #for comic_data in comic_data_dicts:
+    #    volume = comic_data["_volume"]
+    #    if volume:
+    #        if volume not in volumes_dict.keys():
+    #            volumes_dict[volume] = OrderedDict()
+    #        chapter = comic_data["_chapter"]
+    #        if chapter:
+    #            if chapter not in volumes_dict[volume].keys():
+    #                volumes_dict[volume][chapter] = []
+    #            volumes_dict[volume][chapter].append(comic_data.copy())
+    #volumes_dict.move_to_end("Extras", last=True)
+    #return volumes_dict
 
 
 def extra_global_values(comic_folder, comic_info, comic_data_dicts):
